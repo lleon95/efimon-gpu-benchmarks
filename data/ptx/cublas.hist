@@ -1,0 +1,74 @@
+INFO: Entry Found
+[HISTOGRAM]
+	st.gl_mr: 0.0131148
+	fma.rn._rr: 0.222951
+	st.vo_mr: 0.00163934
+	ld.sh_vm: 0.104918
+	ret;_iu: 0.00163934
+	neg.s32_rr: 0.00163934
+	mov.u32_ri: 0.00327869
+	setp.ge.s_rr: 0.00819672
+	setp.neu._rr: 0.00163934
+	ld.gl_rm: 0.0327869
+	mul.f32_rr: 0.00819672
+	mov.f32_rr: 0.0163934
+	max.s32_rr: 0.00163934
+	ld.sh_rm: 0.00163934
+	setp.ne.s_rr: 0.00327869
+	atom.glob_rm: 0.00163934
+	bar.syn_iu: 0.00983606
+	mov.f32_ri: 0.0180328
+	cvt.u64_rr: 0.00163934
+	add.s64_rr: 0.1
+	bra.uni_iu: 0.00655738
+	selp.b32 _rr: 0.00327869
+	membar.gl;_iu: 0.00163934
+	mul.wid_rr: 0.0262295
+	and.pre_rr: 0.00655738
+	bra_iu: 0.0622951
+	shl.b64_rr: 0.0327869
+	setp.eq.s_rr: 0.00327869
+	or.pr_rr: 0.0180328
+	st.sh_mr: 0.0311475
+	and.b32_rr: 0.00491803
+	mad.lo._rr: 0.00819672
+	ld.pa_rm: 0.0409836
+	add.s32_rr: 0.0491803
+	mul.lo._rr: 0.0163934
+	min.s32_rr: 0.00327869
+	bfi.b32_rr: 0.00163934
+	sub.s32_rr: 0.00491803
+	cvt.s64_rr: 0.0131148
+	setp.lt.s_rr: 0.00983606
+	setp.gt.s_rr: 0.0163934
+	shl.b32_rr: 0.0180328
+	not.pre_rr: 0.00819672
+	ld.vo_rm: 0.00819672
+	shr.s32_rr: 0.00327869
+	not.b32_rr: 0.00491803
+	cvta.to.g_rr: 0.0262295
+	mov.u32_rr: 0.0147541
+	setp.ge.u_rr: 0.00163934
+[TAXONOMY]
+	Vector: 
+		Memory: 
+			reg:mem: 0.00163934
+			mem:reg: 0.113115
+	Unclassified: 
+		Jump: 
+			unk:imm: 0.00163934
+		Other: 
+			unk:imm: 0.0114754
+		Branch: 
+			unk:imm: 0.0688524
+	Scalar: 
+		Logic: 
+			reg:reg: 0.145902
+		Arithmetic: 
+			mem:reg: 0.00163934
+			reg:reg: 0.442623
+		Memory: 
+			imm:reg: 0.0213115
+			reg:mem: 0.0442623
+			reg:reg: 0.0721311
+			mem:reg: 0.0754098

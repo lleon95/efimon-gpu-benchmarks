@@ -1,0 +1,42 @@
+INFO: Entry Found
+[HISTOGRAM]
+	st.gl_mr: 0.00641026
+	fma.rn._rr: 0.205128
+	ld.sh_rm: 0.410257
+	ld.gl_rm: 0.0128205
+	ld.pa_rm: 0.0320513
+	mov.u32_rr: 0.025641
+	mul.lo._rr: 0.00641026
+	st.sh_mr: 0.0128205
+	bra.uni_iu: 0.0128205
+	shl.b32_rr: 0.0384615
+	setp.lt.s_rr: 0.00641026
+	setp.gt.s_rr: 0.00641026
+	ret;_iu: 0.00641026
+	bar.syn_iu: 0.0128205
+	mov.u32_ri: 0.0128205
+	bra_iu: 0.0128205
+	mad.lo._rr: 0.025641
+	mul.wid_rr: 0.025641
+	add.s32_rr: 0.0641026
+	mov.f32_ri: 0.0128205
+	cvta.to.g_rr: 0.0192308
+	add.s64_rr: 0.0320513
+[TAXONOMY]
+	Unclassified: 
+		Jump: 
+			unk:imm: 0.00641026
+		Other: 
+			unk:imm: 0.0128205
+		Branch: 
+			unk:imm: 0.025641
+	Scalar: 
+		Logic: 
+			reg:reg: 0.0512821
+		Arithmetic: 
+			reg:reg: 0.358975
+		Memory: 
+			reg:mem: 0.0192308
+			imm:reg: 0.025641
+			reg:reg: 0.0448718
+			mem:reg: 0.455129

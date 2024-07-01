@@ -1,0 +1,58 @@
+INFO: Entry Found
+[HISTOGRAM]
+	ret;_iu: 0.000197006
+	ld.sh_vm: 0.00315209
+	setp.lt.u_rr: 0.000197006
+	setp.ne.s_rr: 0.000197006
+	add.s32_rr: 0.0072892
+	mul.f32_rr: 0.0252167
+	mov.u32_ri: 0.000788022
+	bar.syn_iu: 0.0260048
+	wmma.mma._vv: 0.40346
+	or.b3_rr: 0.000788022
+	bra.uni_iu: 0.000394011
+	selp.b32 _rr: 0.000197006
+	st.gl_mv: 0.00315209
+	cvt.u64_rr: 0.00118203
+	div.rn._rr: 0.000197006
+	add.s64_rr: 0.00157604
+	shl.b32_rr: 0.00295508
+	bra_iu: 0.000591017
+	and.b32_rr: 0.00216706
+	ld.pa_rm: 0.00137904
+	mad.lo._rr: 0.000591017
+	wmma.load_vm: 0.304176
+	wmma.stor_mv: 0.00157604
+	mul.wid_rr: 0.000394011
+	shr.u32_rr: 0.000985028
+	mov.u32_rr: 0.000788022
+	cvta.to.g_rr: 0.000788022
+	ld.gl_vm: 0.104019
+	or.b6_rr: 0.000197006
+	st.sh_mv: 0.104019
+	setp.eq.s_rr: 0.000197006
+	shl.b64_rr: 0.000985028
+	cvt.u32_rr: 0.000197006
+[TAXONOMY]
+	Vector: 
+		Arithmetic: 
+			reg:reg: 0.40346
+		Memory: 
+			reg:mem: 0.108748
+			mem:reg: 0.41134
+	Unclassified: 
+		Jump: 
+			unk:imm: 0.000197006
+		Other: 
+			unk:imm: 0.0260048
+		Branch: 
+			unk:imm: 0.000985028
+	Scalar: 
+		Arithmetic: 
+			reg:reg: 0.035264
+		Logic: 
+			reg:reg: 0.00886525
+		Memory: 
+			imm:reg: 0.000788022
+			reg:reg: 0.00295508
+			mem:reg: 0.00137904
